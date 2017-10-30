@@ -4,7 +4,7 @@ form
   padding: 0 20px
 
   input, textarea
-    border: 3px solid $accent
+    border: 3px solid 
     width: 100%
     +box-sizing(border-box)
     padding: 10px
@@ -15,7 +15,7 @@ form
 
     &:focus
       outline: none
-      border-color: $accent-light
+      border-color: $ibex
 
   textarea
     height: 10em
@@ -25,14 +25,16 @@ form
     text-align: right
 
   [type="submit"]
-    background: $accent
     color: white
-    font-size: 18px
+    font-size: 16px
     text-transform: uppercase
     width: 33%
+    background: $ibex
+    border: 3px solid shade($ibex, 10%)
+    font-weight: 550
 
     &:hover
-      background: $accent-light
+      background: shade(skyblue, 10%)
 
 
 
@@ -54,6 +56,8 @@ form
   label
     display: block
     margin-bottom: 20px
+    color: white
+    font-weight: 600
 
     span
       display: block
@@ -73,3 +77,6 @@ form
 
     [type="submit"]
       width: 100%
+
+h3
+  color: grey
