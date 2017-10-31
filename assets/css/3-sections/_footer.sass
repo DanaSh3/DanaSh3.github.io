@@ -1,17 +1,16 @@
 footer
-  @extend %background-image
-  background-image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
 
   .lockup
     padding: 50px 30px
     +clearfix
 
     .content-wrap
-      float: left
-      margin-left: 80px
+      max-width: 400px
+      text-align: center
+      margin: auto
 
       .copyright
-        margin: 0
+        text-align: center
         text-transform: uppercase
         font-size: 12px
         color: rgba(0,0,0,0.4)
@@ -20,7 +19,9 @@ footer
         @extend %small-bold
         color: rgba(0,0,0,0.5)
         display: inline-block
-        margin-right: 30px
+        font-size: 14px
+        margin-left: 10px
+        margin-right: 10px
 
         &:hover
           color: rgba(0,0,0,0.7)

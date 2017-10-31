@@ -7,12 +7,7 @@
     {% for link in site.data.settings.social %}
     <a href="{{ link.link }}" class="icon-{{ link.icon }}"></a>
     {% endfor %}
+    <a href="mailto:{{ site.data.settings.email }}" class="icon-email"></a>
   </div>
-
-  <hr class="bar">
-
-
-  <a class="biglink" href="mailto:{{ site.data.settings.email }}">{{ site.data.settings.email }}</a>
-  <p class="phone">+1 929 305 9777</p>
 
 </section>

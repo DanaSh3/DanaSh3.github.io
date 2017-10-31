@@ -1,6 +1,6 @@
 form
   max-width: 450px
-  margin: 0 auto 100px
+  margin: 0 auto
   padding: 0 20px
 
   input, textarea
@@ -30,13 +30,20 @@ form
     text-transform: uppercase
     width: 33%
     background: $ibex
-    border: 3px solid shade($ibex, 10%)
+    border: 3px solid white
     font-weight: 550
 
     &:hover
-      background: shade(skyblue, 10%)
+      background: shade($ibex, 10%)
+      border: 3px solid white
 
+    &:active
+      border: 3px solid white
+      background: purple
 
+    &:target
+      border: 3px solid white
+      background: purple
 
 
 
@@ -77,6 +84,3 @@ form
 
     [type="submit"]
       width: 100%
-
-h3
-  color: grey
