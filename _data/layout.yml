@@ -14,5 +14,5 @@ accent: "#c99065"
 
 textColor: "#666"
 headlineColor: "#333"
-bgcolor: "skyblue"
+bgcolor: "rgb(40, 40, 88)"
 documentBackgroundColor: "#fff"

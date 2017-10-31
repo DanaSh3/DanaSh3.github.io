@@ -1,18 +1,5 @@
 header
-  @extend %background-image
-  background:
-    position: 30px 20px, 50% 50%
-    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
   padding-bottom: 50px
-
-
-  .logo
-    +size(50px)
-    float: left
-    margin: 10px 0 0 30px
-
-    path
-      fill: rgba(0,0,0,0.4)
 
   nav
     float: right
@@ -22,8 +9,9 @@ header
       display: inline-block
       margin-left: 20px
 
-      color: white
+      color: black
       @extend %small-bold
+      font-size: 12px
 
       &:hover
         color: rgba(0,0,0,1)
@@ -33,19 +21,41 @@ header
     font:
       size: 72px
       weight: 500
-    color: white
+    color: black
     text-transform: uppercase
     letter-spacing: 0.05em
     margin-bottom: 20px
+    font-weight: 550
     clear: both
-    padding-top: 100px
+    padding-top: 50px
 
-  .kicker
-    @extend %small-bold
+  .kicker-holder
+    max-width: 500px
+    margin: 0 auto
+    display: block
     text-align: center
-    letter-spacing: 0.05em
-    color: white
-    line-height: 1
+
+    .kicker
+      text-align: center
+      letter-spacing: 0.05em
+      color: black
+      line-height: 1
+      text-transform: lowercase
+      font-size: 20px
+      font-weight: 500
+      margin: 0 15px
+      display: inline-block
+      opacity: 0
+
+    #kicker-1
+      color: skyblue
+
+    #kicker-2
+      color: gray
+
+    #kicker-3
+      color: hotpink
+
 
 @media (max-width: 640px)
   header

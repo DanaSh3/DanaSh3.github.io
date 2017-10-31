@@ -8,6 +8,8 @@ $(function() {
 	$(".biglink").fitText(1.5);
 
 	$('textarea').autosize();
+
+  headerLoad();
 });
 
 // smoothScroll function is applied from the document ready function
@@ -23,6 +25,12 @@ function smoothScroll (duration) {
 	        }, duration);
 	    }
 	});
+}
+
+function headerLoad() {
+  $('#kicker-1').animate({opacity: 1}, 2000)
+  $('#kicker-2').animate({opacity: 1}, 3000)
+  $('#kicker-3').animate({opacity: 1}, 4000)
 }
 
 
