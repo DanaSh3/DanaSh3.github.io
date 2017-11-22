@@ -6,7 +6,7 @@ description: Thinker · Designer · Visionary
 email: shomakovadana@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
-
+  
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
@@ -38,7 +38,9 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Dana is a very busy person**
+  **Design is hepling me to grow in technology world, garner skills to build meaningful 
+value to our lives. Design encourages to push innovation to the limit. 
+Design keeps me curious about all areas of design**
 
 
 
