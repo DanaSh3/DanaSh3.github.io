@@ -1,5 +1,9 @@
 html
-  font-family: Oswald, sans-serif
+  font-family: DisposableDroid BB
+// background 
+//install image for the background 0/100% no-repeat;
+//background-size: 260%
+//background-position: 3% -200%
   
 
 .landing
@@ -14,6 +18,7 @@ html
 
 
 h1 
+  font-family: DisposableDroid BB
   text-transform: uppercase
   font-size: 40px
   text-align: center
@@ -23,20 +28,44 @@ h1
   overflow: hidden
   color: #66C9BA
   text-shadow: 5px 10px 15px rgba(0,0,0,0.3)
-  font-family: Oswald, sans-serif
   opacity: 2
   letter-spacing: 8px
+
+  -webkit-text-fill-color: transparent
+  background: -webkit-linear-gradient(left, #A3F7BF 0%, #29A19C 33%, #435055 66%, #27323A 100%)
+  //background-size: 700px
+  //background-repeat: repeat
+  -webkit-background-clip: text
+  text-fill-color: transparent
+  background-clip: text
+  -webkit-animation: gradient-move 1s linear infinite
+  animation: gradient-move 1s linear infinite
+
+h1 hover 
+  -webkit-animation: gradient-move 0.3s linear infinite
+  float: right
+
+//@-webkit-keyframes gradient-move 
+  //background-position: 0 0
+  //background-position: 700px
+
 
 
   
 h3
-  font-family: Oswald, sans-serif 
-  font-size: 14px 
+  font-family: DisposableDroid BB
+  font-size: 16px 
   line-height: 0 
   font-weight: 400 
   letter-spacing: 8px 
   text-transform: uppercase 
   color: black
+
+  //landing big portion of the screen
+  //    width: 80%
+    //margin: 10% auto 20%
+    //display: block
+    //position: relative
 
 
 
