@@ -1,35 +1,18 @@
+html
+  height: 100vh
+
 header
-  padding-bottom: 50px
+  height: 100vh
+  background-color: #66C9BA
+    size: cover
+    position: center
+  margin-bottom: 50px
 
-  nav
-    float: right
-    padding: 30px 30px 0 0
-
-    a
-      display: inline-block
-      margin-left: 20px
-
-      color: black
-      @extend %small-bold
-      font-size: 12px
-
-      &:hover
-        color: rgba(0,0,0,1)
-
-  h1
-    text-align: center
-    font: monospace
-      size: 72px
-      weight: 500
-      width: 100%
-      height: 800%
-    color: black
-    text-transform: uppercase
-    letter-spacing: 0.05em
-    margin-bottom: 20px
-    font-weight: 550
-    clear: both
-    padding-top: 50px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
 
   .kicker-holder
     max-width: 500px
@@ -38,8 +21,9 @@ header
     text-align: center
 
     .kicker
+      font-family: DisposableDroid BB
       text-align: center
-      letter-spacing: 0.05em
+      letter-spacing: 0.03em
       color: black
       line-height: 1
       text-transform: lowercase
@@ -50,16 +34,34 @@ header
       opacity: 0
 
     #kicker-1
-      color:  #fff
-      text-shadow: 0px 2px 4px rgba(0,0,0,0.5)
+      color:  black
+      text-shadow: 1px 2px 4px rgba(0,0,0,0.5)
 
     #kicker-2
-      color:  #fff
-      text-shadow: 0px 2px 4px rgba(0,0,0,0.5)
+      color:  black
+      text-shadow: 1px 2px 4px rgba(0,0,0,0.5)
 
     #kicker-3
-      color:  #fff
-      text-shadow: 0px 2px 4px rgba(0,0,0,0.5)
+      color:  black
+      text-shadow: 1px 2px 4px rgba(0,0,0,0.5)
+
+    #kicker-4
+      font-family: DisposableDroid BB
+      text-transform: uppercase
+      font-size: 40px
+      text-align: center
+      height: 75px
+      position: relative
+      transform: translateY(-50%)
+      overflow: hidden
+      color: black
+      text-shadow: 5px 10px 15px rgba(0,0,0,0.5)
+      opacity: 3
+      letter-spacing: 10px
+      margin: -6% auto   
+
+
+     
 
 
 @media (max-width: 640px)
@@ -67,10 +69,10 @@ header
     background:
       position: 50% 20px, 50% 50%
 
-    nav
-      float: none
-      text-align: center
-      padding-top: 90px
+    //nav
+      //float: none
+      //text-align: center
+      //padding-top: 90px
 
     h1
-      padding-top: 0px
+      //padding-top: 0px
